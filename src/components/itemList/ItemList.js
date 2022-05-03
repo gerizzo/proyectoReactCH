@@ -18,6 +18,8 @@ export const ItemList = () => {
             setCatalogo(result)
         })
     })
+
+    
     return (
         <div style={{display:"flex"}}>
             {catalogo && catalogo.map(item => {

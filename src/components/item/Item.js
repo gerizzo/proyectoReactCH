@@ -17,5 +17,7 @@ export const Item = (producto) => {
       </Card>
     </div>
     ) 
+     
+
     
 }
