@@ -9,6 +9,7 @@ function App() {
         <Navbar2></Navbar2>
       <main>
         <ItemListContainer></ItemListContainer>
+        <ItemListContainer></ItemListContainer>
       </main>
     </div>
   );
