@@ -16,5 +16,6 @@ export const Item = (producto) => {
         </Card.Body>
       </Card>
     </div>
-    )
+    ) 
+    
 }
