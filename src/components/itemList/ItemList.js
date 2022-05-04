@@ -26,7 +26,6 @@ export const ItemList = () => {
     return (
         <div style={{display:"flex"}}>
             {catalogo && catalogo.map(item => {
-                {console.log(item)}
                 return <Item producto={item} />
             })}
         </div>

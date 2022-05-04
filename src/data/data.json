@@ -1,7 +1,7 @@
 
 [{
     "id": 1, 
-    "title": "Buzo Hoodie Classic",
+    "nombre": "Buzo Hoodie Classic",
     "color": "Naranja",
     "precio": 4000,
     "tipoPrenda": "buzo",
@@ -9,7 +9,7 @@
 },
 {
     "id": 2, 
-    "title": "Buzo Hoodie Classic",
+    "nombre": "Buzo Hoodie Classic",
     "color": "Violeta",
     "tipoPrenda": "buzo",
     "precio": 3500,
@@ -17,7 +17,7 @@
 },
 {
     "id": 3, 
-    "title": "Buzo Hoodie Classic",
+    "nombre": "Buzo Hoodie Classic",
     "color": "Celeste",
     "precio": 3500,
     "tipoPrenda": "buzo",
