@@ -4,19 +4,22 @@
     "title": "Buzo Hoodie Classic",
     "color": "Naranja",
     "precio": 4000,
-    "img": "https://deliverind.com.ar/wp-content/uploads/2022/04/HOODIE-CLASSIC-RUSTICO-BEIGE-PEACH-scaled.jpg"
+    "tipoPrenda": "buzo",
+    "img": "https://i.postimg.cc/TP05Yp3N/buzo-Naranja.jpg"
 },
 {
     "id": 2, 
     "title": "Buzo Hoodie Classic",
     "color": "Violeta",
+    "tipoPrenda": "buzo",
     "precio": 3500,
-    "img": "https://deliverind.com.ar/wp-content/uploads/2022/04/HOODIE-CLASSIC-RUSTICO-22-VIOLETA-MAG-20-scaled.jpg"
+    "img": "https://i.ibb.co/6Yq5LfZ/buzo-Violeta.jpg"
 },
 {
     "id": 3, 
     "title": "Buzo Hoodie Classic",
     "color": "Celeste",
     "precio": 3500,
-    "img": "https://deliverind.com.ar/wp-content/uploads/2022/04/HOODIE-CLASSIC-RUSTICO-GLACIAR-MAG-scaled.jpg"
+    "tipoPrenda": "buzo",
+    "img": "https://i.postimg.cc/wvBH5Bcr/buzo-Celeste.jpg"
 }]

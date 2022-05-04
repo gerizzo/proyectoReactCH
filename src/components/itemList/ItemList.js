@@ -12,10 +12,13 @@ export const ItemList = () => {
                 } else {
                     reject('RECHAZADO')
                 }
-            }, 3000);
+            }, 1000);
         })
         .then (result => {
             setCatalogo(result)
+        })
+        .catch(err => {
+            console.error(err)
         })
     })
 
@@ -23,9 +26,9 @@ export const ItemList = () => {
     return (
         <div style={{display:"flex"}}>
             {catalogo && catalogo.map(item => {
+                {console.log(item)}
                 return <Item producto={item} />
             })}
         </div>
     )
-
 }
