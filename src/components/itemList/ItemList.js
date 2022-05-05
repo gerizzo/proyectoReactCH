@@ -18,7 +18,7 @@ export const ItemList = () => {
             setCatalogo(result)
         })
         .catch(err => {
-            console.error(err)
+            console.err("RECHAZADO")
         })
     })
 
@@ -30,4 +30,5 @@ export const ItemList = () => {
             })}
         </div>
     )
+
 }

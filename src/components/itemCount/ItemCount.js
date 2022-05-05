@@ -1,5 +1,6 @@
 import { useState } from "react"
 import {styles} from "./styles.js"
+import { Link } from "react-router-dom"
 
 export const ItemCount = ({stock}) => {
     const [contador, setContador] = useState(1)
@@ -20,11 +21,9 @@ export const ItemCount = ({stock}) => {
             <div className="d-flex justify-content-center">
                 <button style={styles.altura} className="btn btn-primary mx-4" onClick={resta}>-</button>
                 <h5 className="align-items-center">{contador}</h5>
-                <button className="btn btn-primary mx-4 " onClick={suma}>+</button>
+                <button className="btn btn-primary mx-4" onClick={suma}>+</button>
             </div>
-            <div>
-                <button className="btn btn-success mt-2 ">Comprar</button>
-            </div>
+
         </div>
     )
 }   
