@@ -17,15 +17,6 @@
     "img": "https://i.ibb.co/6Yq5LfZ/buzo-Violeta.jpg",
     "stock": 3
 },
-{
-    "id": 3, 
-    "nombre": "Buzo Hoodie Classic",
-    "color": "Blanco",
-    "tipoPrenda": "Buzo",
-    "precio": 5500,
-    "img": "https://i.ibb.co/Qp985g2/buzoblanco.jpg",
-    "stock": 2
-},
 
 {
     "id": 4, 
