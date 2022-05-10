@@ -16,6 +16,7 @@ export const ItemCount = ({stock}) => {
         } 
             setContador(contador - 1)
     }
+
     return(
         <div>
             <div className="d-flex justify-content-center">
@@ -23,7 +24,6 @@ export const ItemCount = ({stock}) => {
                 <h5 className="align-items-center">{contador}</h5>
                 <button className="btn btn-primary mx-4" onClick={suma}>+</button>
             </div>
-
         </div>
     )
 }   
