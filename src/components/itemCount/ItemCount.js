@@ -1,19 +1,22 @@
 import { useState } from "react"
 import { styles } from "./styles.js"
 
-export const ItemCount = ({stock}) => {
+export const ItemCount = ({stock , onAdd}) => {
     const [contador, setContador] = useState(1)
     const suma = () => {
         if (contador === stock) {
             return
         }
         setContador(contador + 1)
+        onAdd(contador + 1)
+       
     }
     const resta = () => {
         if (contador === 1) {
             return
         } 
-            setContador(contador - 1)
+        setContador(contador - 1)
+        onAdd(contador - 1)
     }
     return(
         <div>

@@ -1,8 +1,13 @@
+
 import { FaMegaport } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { ItemCount } from '../itemCount/ItemCount';
 
 export const ItemDetail = (props) => {
+    
+    const onAdd = (cantidad) => {
+        console.log(cantidad);
+    }
     return (
         <div className="container mt-5">
             <div className="row">
@@ -17,8 +22,8 @@ export const ItemDetail = (props) => {
                     <p>Tipo De Prenda: {props.tipoPrenda}</p>
                     <h2>${props.precio}</h2>
                     <br></br>
-                    <ItemCount stock={props.stock}></ItemCount>
-                    <br></br>
+                    <ItemCount stock={props.stock} onAdd={onAdd}></ItemCount> 
+                    <br></br>   
                     <Link to={`/cart`} state={props} className="btn btn-success">Finalizar Compra</Link>
                 </div>
             </div>

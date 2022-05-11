@@ -12,7 +12,6 @@ export const Item = ({producto}) => {
         <Card.Body>
           <Card.Title>{producto.nombre} {producto.color}</Card.Title>
           <Card.Title>$ {producto.precio}</Card.Title>
-          <ItemCount stock={producto.stock} id={producto.id}></ItemCount>
           <br/>
           <Link to={`/detalles/${producto.id}`} state={producto} className="btn btn-success">Detalles Producto</Link>
         </Card.Body>
